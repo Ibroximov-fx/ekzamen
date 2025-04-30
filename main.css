@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background-image: url(img/header-bg.png);
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 43px;
+}
+
+.header__hamburger {
+    display: flex;
+    padding-top: 39px;
+    gap: 17px;
+}
+
+.header__logo {
+    margin-top: 21px;
+    width: 55px;
+    height: 55px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list__langue {
+    padding-left: 146px;
+}
+
+.header__line {
+    height: 35px;
+    opacity: 50%;
+    border: 1px solid white;
+    margin-right: 7px;
+}
+
+.header__img {
+    width: 37px;
+    height: 37px;
+}
+
+.header__wrapper {
+    width: 55px;
+    border-radius: 3px;
+    background-color: #000000BF;
+    color: white;
+    justify-content: end;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 4px 6px;
+    margin-top: 13px;
+}
+
+.nav__list__langue:active {
+
+}
+
+.section__survive {
+
+}
+
+.section__social {
+    background-image: url(img/bg-image-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section__social__big {
+    display: flex;
+
+}
+
+.section__social__wrapper {
+    padding-top: 256px;
+}
+
+.social__wrapper__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.section__social__span {
+    text-decoration: underline;
+}
+
+.social__wrapper__note {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    max-width: 410px;
+}
+
+.social__box__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 364px;
+
+}
+
+.social__box__note {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 364px;
+    padding-top: 25px;
+}
+
+.section__social__box {
+    padding-top: 72px;
+    padding-left: 187px;
+    padding-bottom: 268px;
+}
+
+.section__box__span {
+    box-shadow: inset 0 -0.5em 0 orange;
+}
+
+.section__social__photo {
+    max-width: 502px;
+    height: 610px;
+    width: 100%;
+    margin-top: 214px;
+    margin-left: 76px;
+}
+
+.section__social__icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.features {
+    background-image: url(img/bg-image-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.features__box__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.features__box__note {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.features__wrapper__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFB548;
+    letter-spacing: 2px;
+}
+
+.features__wrapper__small {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    width: 362px;
+}
+
+.features__wrapper__pencil {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFB548;
+    letter-spacing: 2px;
+}
+
+.features__wrapper__pen {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFB548;
+    letter-spacing: 2px;
+}
+
+.features__wrapper {
+    padding-top: 70px;
+}
+
+.features__wrapper__small {
+    padding-top: 6px;
+}
+
+.features__wrapper__pencil {
+    padding-top: 28px;
+}
+
+.features__wrapper__pen {
+    padding-top: 37px;
+}
+
+.features__big {
+    padding-bottom: 258px;
+    padding-top: 168px;
+    padding-left: 676px;
+}
+
+.system {
+    background-image: url(img/requirements.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.system__box {
+    padding-top: 145px;
+    text-align: center;
+}
+
+.system__box__text {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.system__box__note {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.system__big {
+    max-width: 563px;
+    width: 100%;
+    padding-top: 133px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 128px;
+}
+
+.box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 25px;
+    padding-bottom: 36px;
+    padding-left: 10px;
+}
+
+.system__big__box {
+    border: 1px solid #979797;
+    padding: 14px 19px;
+    max-width: 280px;
+    width: 100%;
+    grid-template-columns:  repeat(2, 1fr);
+}
+
+.big__box__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFB548;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+
+.big__box__note1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 257px;
+    padding-top: 7px;
+    padding-left: 19px;
+    padding-bottom: 25px;
+}
+
+.big__box__note2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 260px;
+    padding-top: 7px;
+    padding-left: 19px;
+    padding-bottom: 25px;
+}
+
+.big__box__note3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 257px;
+    padding-top: 7px;
+    padding-left: 19px;
+    padding-bottom: 45px;
+}
+
+.big__box__note4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 257px;
+    padding-top: 7px;
+    padding-left: 19px;
+    padding-bottom: 45px;
+}
+
+.big__box__note5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 514px;
+    padding-top: 7px;
+    padding-left: 19px;
+    padding-bottom: 25px;
+}
+
+.press {
+    background-color: black;
+}
+
+.press__box {
+    display: flex;
+
+}
+
+.press__box__wrapper {
+    padding-top: 303px;
+}
+
+.press__wrapper__title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.press__wrapper__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 9px;
+
+}
+
+.press__wrapper__mini {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    max-width: 434px;
+    padding-top: 55px;
+}
+
+.press__wrapper__button {
+    border-radius: 4px;
+    background-color: #FFB548;
+    padding: 18px 38px 20px 31px;
+    border: 1px solid #FFB548;
+    color: #1A1917;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: lowercase;
+    margin-top: 55px;
+}
+
+.press__big__box {
+    background-color: #FFFFFF14;
+    border-radius: 10px;
+    margin-left: 146px;
+
+    max-width: 530px;
+    width: 100%;
+}
+
+.press__big__round {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color: #FFB548;
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+.press__big__icon {
+    position: absolute;
+    left: -9px;
+    top: -5px;
+    width: 67px;
+    height: 67px;
+    border-radius: 100%;
+}
+
+.press__big__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.press__big__note {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: white;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.press__big__male {
+    padding-top: 26px;
+    padding-left: 22px;
+}
+
+.press__big__small {
+    display: flex;
+}
+
+.press__big__pen {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 23px;
+    padding-left: 17px;
+    max-width: 390px;
+}
+
+.press__big__pencil {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    opacity: 50%;
+    padding-top: 8px;
+    padding-left: 17px;
+    padding-bottom: 21px;
+}
+
+.press__big__twitter {
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 20px;
+}
+
+.press__big {
+    padding-top: 160px;
+}
+
+.press__big__box1 {
+    background-color: #FFFFFF14;
+    border-radius: 10px;
+    margin-top: 29px;
+
+    max-width: 530px;
+}
+
+.press__big__box2 {
+    background-color: #FFFFFF14;
+    border-radius: 10px;
+    margin-left: 105px;
+    margin-top: 29px;
+    margin-bottom: 147px;
+    max-width: 530px;
+    width: 100%;
+}
+
+.press__box {
+    gap: 166px;
+}
+
+.newsletter {
+    background-color: #080A0B;
+}
+
+.newsletter__box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+    padding-left: 45px;
+}
+
+.newsletter__wrapper {
+    padding-top: 167px;
+}
+
+.newsletter__wrapper__text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: white;
+}
+.newsletter__wrapper__note{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 4px;
+}
+.newsletter__wrapper__notebook{
+    font-family: "Open Sans", sans-serif;
+    font-size:  18px;
+    line-height: 22px;
+    color: white;
+    padding-top: 40px;
+    width: 644px;
+}
+.newsletter__input{
+    background-color: #FFFFFF14;
+    padding: 15px 180px 15px 22px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
