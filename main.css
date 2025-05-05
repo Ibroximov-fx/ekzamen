@@ -23,7 +23,8 @@
     display: flex;
     gap: 24px;
 }
-.header__hamburger__list{
+
+.header__hamburger__list {
     display: flex;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
@@ -33,11 +34,13 @@
     gap: 6px;
     align-items: center;
 }
-.header__vector{
+
+.header__vector {
     width: 10px;
     height: 6px;
 }
-.header__hamburger__stream{
+
+.header__hamburger__stream {
     display: flex;
     gap: 17px;
     align-items: center;
@@ -145,7 +148,7 @@
 
 .section__social__big {
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
 }
 
 .section__social__wrapper {
@@ -209,10 +212,11 @@
 }
 
 .section__social__icon {
-width: 54px;
+    width: 54px;
     height: 33px;
 }
-.section__social__real{
+
+.section__social__real {
     display: flex;
     gap: 39px;
     align-items: center;
@@ -475,7 +479,6 @@ width: 54px;
     background-color: #FFFFFF14;
     border-radius: 10px;
     margin-left: 146px;
-
     max-width: 530px;
     width: 100%;
 }
@@ -546,6 +549,18 @@ width: 54px;
 }
 
 .press__big__twitter {
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 20px;
+}
+
+.press__big__twitter1 {
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 20px;
+}
+
+.press__big__twitter2 {
     margin-top: 20px;
     margin-left: 220px;
     margin-right: 20px;
@@ -720,24 +735,29 @@ width: 54px;
     text-transform: uppercase;
     color: white;
 }
-.header__hamburger__menu{
+
+.header__hamburger__menu {
     display: none;
     width: 23px;
     height: 17px;
 }
-.section__social__line{
+
+.section__social__line {
     max-width: 100%;
     background-color: white;
     height: 2px;
     display: none;
 }
-@media only screen and (max-width: 1240px){
-.header__hamburger__menu{
-    display: block;
-}
-    .header__img{
+
+@media only screen and (max-width: 1240px) {
+    .header__hamburger__menu {
+        display: block;
+    }
+
+    .header__img {
         display: none;
     }
+
     .section__social__big {
         flex-direction: column;
 
@@ -746,17 +766,27 @@ width: 54px;
     .section__social__wrapper {
         padding-top: 19px;
     }
+
     .features__big {
         padding-left: 88px;
     }
-    .press__box{
+
+    .press__box {
+        flex-direction: column;
+    }
+    .newsletter__img{
+        display: none;
+    }
+    .footer__box{
         flex-direction: column;
     }
 }
+
 @media only screen and (max-width: 800px) {
-.nav__list{
-    display: none;
-}
+    .nav__list {
+        display: none;
+    }
+
     .survive__box__title {
         font-size: 33px;
     }
@@ -764,25 +794,31 @@ width: 54px;
     .survive__box__text {
         font-size: 18px;
     }
-    .social__wrapper__text{
+
+    .social__wrapper__text {
         font-size: 18px;
     }
+
     .social__wrapper__note {
         font-size: 33px;
         max-width: 270px;
     }
-    .section__social__span{
+
+    .section__social__span {
         text-decoration: none;
     }
-    .section__social__box{
+
+    .section__social__box {
         padding: 36px 0 0 21px;
         font-size: 14px;
         max-width: 360px;
     }
-    .social__box__text{
+
+    .social__box__text {
 
 
     }
+
     .section__social__photo {
         max-width: 225px;
         height: 273px;
@@ -793,47 +829,60 @@ width: 54px;
         width: 44px;
         height: 23px;
     }
-    .section__social__real{
+
+    .section__social__real {
         display: flex;
         gap: 8px;
         padding: 51px 16px 32px 49px;
     }
+
     .features__big {
         padding-bottom: 85px;
         padding-top: 82px;
     }
-    .features__box__text{
+
+    .features__box__text {
         font-size: 18px;
     }
-    .features__box__note{
-        font-size:33px;
+
+    .features__box__note {
+        font-size: 33px;
     }
-    .features__wrapper{
+
+    .features__wrapper {
         padding-top: 20px;
     }
-    .features__wrapper__text{
-        font-size:21px;
+
+    .features__wrapper__text {
+        font-size: 21px;
     }
-    .features__wrapper__small{
+
+    .features__wrapper__small {
         font-size: 14px;
         max-width: 174px;
     }
-    .features__wrapper__pencil{
-        font-size:21px ;
-    }
-    .features__wrapper__pen{
+
+    .features__wrapper__pencil {
         font-size: 21px;
     }
-    .system__box__text{
-        font-size:  18px;
+
+    .features__wrapper__pen {
+        font-size: 21px;
     }
-    .system__box__note{
+
+    .system__box__text {
+        font-size: 18px;
+    }
+
+    .system__box__note {
         font-size: 33px;
     }
-    .system__big{
+
+    .system__big {
         padding-top: 71px;
         padding-bottom: 234px;
     }
+
     .big__box__text {
         font-size: 18px;
     }
@@ -876,6 +925,7 @@ width: 54px;
         padding-bottom: 25px;
         max-width: 253px;
     }
+
     .system__big__box {
         padding: 14px 19px;
     }
@@ -883,35 +933,164 @@ width: 54px;
     .system__big__box1 {
         padding: 9px 9px;
     }
-    .system__big{
+
+    .system__big {
         max-width: 290px;
         margin: 0 auto;
 
     }
-    .press__box__wrapper{
+
+    .press__box__wrapper {
         padding-top: 37px;
     }
-    .press__wrapper__title{
+
+    .press__wrapper__title {
         font-size: 18px;
     }
-    .press__wrapper__text{
+
+    .press__wrapper__text {
         font-size: 33px;
     }
-    .press__wrapper__mini{
+
+    .press__wrapper__mini {
         font-size: 14px;
         max-width: 290px;
         padding-top: 55px;
     }
-    .press__wrapper__button{
+
+    .press__wrapper__button {
         display: flex;
         flex-direction: column;
         margin: 39px auto 0 auto;
     }
 
+    .press__big {
+        padding-top: 0;
+    }
+
+    .press__big__box {
+        margin-left: 0;
+        max-width: 330px;
+        padding-top: 0;
+
+    }
+
+    .press__big__box1 {
+        margin-left: 0;
+        max-width: 330px;
+    }
+
+    .press__big__box2 {
+        margin-left: 0;
+        max-width: 330px;
+    }
+
+    .press__big__round {
+        width: 40px;
+        height: 40px;
+    }
+
+    .press__big__icon {
+        left: -4px;
+        top: -3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .press__big__text {
+        font-size: 21px;
+        padding-left: 17px;
+    }
+
+    .press__big__note {
+        font-size: 14px;
+    }
+
+    .press__big__male {
+        padding-top: 7px;
+        padding-left: 15px;
+        gap: 14px;
+    }
+
+    .press__big__small {
+        display: flex;
+    }
+
+    .press__big__pen {
+        padding-top: 14px;
+        padding-left: 16px;
+        max-width: 240px;
+        font-size: 14px;
+    }
+
+    .press__big__pencil {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: white;
+        opacity: 50%;
+        padding-top: 8px;
+        padding-left: 17px;
+        padding-bottom: 21px;
+    }
+
+    .press__big__twitter {
+        margin-left: 100px;
+
+    }
+
+    .press__big__twitter1 {
+        margin-left: 80px;
+    }
+
+    .press__big__twitter2 {
+        margin-left: 50px;
+    }
+
+    .press__box {
+        gap: 30px;
+    }
+    .newsletter__box{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .newsletter__wrapper{
+        padding-top: 0;
+
+    }
+    .newsletter__wrapper__text{
+        padding-top: 0;
+        font-size: 18px;
+    }
+    .newsletter__wrapper__note{
+        font-size:  33px;
+        max-width: 290px;
+    }
+    .newsletter__wrapper__notebook{
+        font-size: 14px;
+        max-width: 189px;
+        padding-top: 15px;
+    }
+    .newsletter__button-box{
+        padding-left: 0;
+    }
+    .newsletter__wrapper__box{
+        padding-left: 110px;
+    }
+    .newsletter__input{
+        margin-top: 40px;
+        padding: 15px 147px 15px 17px;
+    }
+    .newsletter__button{
+        padding: 15px 194px 15px 17px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
 }
-@media only screen and (max-width: 400px){
-.section__social__line{
-    display: block;
-    margin-top: 35px;
-}
+
+@media only screen and (max-width: 400px) {
+    .section__social__line {
+        display: block;
+        margin-top: 35px;
+    }
 }
